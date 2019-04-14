@@ -2,6 +2,6 @@
 Bot for telegram, which allow you to sell smth.
 
 
-Add you token to config.py
+Add your token to config.py
 
 Start bot.py
