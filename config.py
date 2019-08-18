@@ -2,7 +2,7 @@
 
 from enum import Enum
 
-token = "" # Токен телеграм бота
+token = "740134097:AAGtxttIJV5JAi5lAkytFahr6dtfCfinBSc" # Токен телеграм бота
 db_file = "database.vdb"
 database_name = 'shoes.db'  # Файл с базой данных
 shelve_name = 'shelve.db'  # Файл с хранилищем
