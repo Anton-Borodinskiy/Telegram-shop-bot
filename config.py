@@ -2,19 +2,19 @@
 
 from enum import Enum
 
-token = "" # Токен телеграм бота
+token = "6242184601:AAHxe-6qimbqmQ8cctHI7b_fgH2ZX0Caji8" 
 db_file = "database.vdb"
-database_name = 'shoes.db'  # Файл с базой данных
-shelve_name = 'shelve.db'  # Файл с хранилищем
+database_name = 'shoes.db'  
+shelve_name = 'shelve.db'  
 
 
 
 class States(Enum):
     """
-    Мы используем БД Vedis, в которой хранимые значения всегда строки,
-    поэтому и тут будем использовать тоже строки (str)
+    We use the Vedis database, in which the stored values ​​are always strings, so we will use strings here too
+ (str)
     """
-    S_START = "0"  # Начало нового диалога
+    S_START = "0"   
     S_ENTER_NAME = "1"
     S_ENTER_AGE = "2"
     S_SEND_PIC = "3"
